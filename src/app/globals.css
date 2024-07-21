@@ -1,0 +1,271 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url('../app/font/montserrat.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ 
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat';
+    font-weight: 500;
+}
+.product_inner {
+    max-width: 1400px;
+    margin: auto;
+    padding: 0px 20px;
+}
+.add_outer {
+    padding: 80px 0px;
+}
+
+.outer_inner {
+    padding: 20px 0px;
+}
+.product_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.action_buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.action_buttons button {
+    background: unset;
+    border: unset;
+    cursor: pointer;
+}
+.action_buttons button svg {
+    font-size: 20px;
+}
+.action_buttons button svg {
+    color: red;
+}
+.user_pofile_inner {
+    max-width: 400px;
+    margin: auto;
+    padding: 0px 20px;
+}
+.user_profile_wrapper button {
+    margin-top: 30px;
+    width: 100%;
+    padding: 12px 52px;
+    border: unset;
+    background: skyblue;
+    color: #000;
+    cursor: pointer;
+}
+.user_profile_wrapper h1 {
+    margin: 0px;
+    text-align: center;
+}
+.user_profile_outer {
+    padding: 80px 0px;
+}
+.user_profile_wrapper {
+    padding: 30px;
+    border: 1px solid skyblue;
+    border-radius: 4px;
+    background: #fff;
+}
+.action_buttons a {
+    font-size: 20px;
+    color: #808080;
+}
+.products {
+    padding: 20px;
+    box-shadow: 0px 15px 50px 1px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
+
+.product_outer {
+    padding: 80px 0px;
+}
+
+.product_infos ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.product_wrapper h1 {
+    font-size: 22px;
+    color: skyblue;
+}
+
+.product_infos ul li {
+    display: flex;
+    justify-content: space-between;
+}
+span.p-infos {
+    font-weight: 600;
+}
+
+.product_infos ul li {
+    list-style: none;
+}
+.sign_up_wrapper {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    width: 100%;
+    padding: 32px;
+    box-shadow: 0px 15px 50px 1px rgba(0, 0, 0, 0.08);
+}
+.footer_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    align-items: center;
+}
+.infos {
+    display: flex;
+    justify-content: center;
+}
+.unerinfos {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.footer {
+    background: #fff!important;
+}
+.wrapper p {
+    margin: 0;
+    text-align: center;
+}
+.unerinfos li {
+    list-style: none;
+}
+
+.sign_inner {
+    max-width: 1300px;
+    margin: auto;
+    padding: 0px 16px;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+button.hide-and-seek {
+    background: unset;
+    border: unset;
+    cursor: pointer;
+    position: absolute;
+    height: 22px;
+    right: 6px;
+    bottom: 22px;
+
+}
+button.hide-and-seek img {
+    height: 100%;
+    width: 100%;
+ 
+}
+.pass-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+
+.input_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.logo img {
+    height: 60px;
+    width: 60px;
+}
+.header_inner {
+    max-width: 1400px;
+    margin: auto;
+    padding: 0px 20px;
+}
+.header_wrapper {
+    display: grid;
+    grid-template-columns: 20% 1fr 10%;
+    align-items: center;
+    gap: 16px;
+}
+.header_outer {
+    background: skyblue;
+    box-shadow: 0px 15px 50px 1px rgba(0, 0, 0, 0.08);
+    padding: 12px 0px;
+}
+ul.nav-wrapper {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 12px;
+}
+ul.nav-wrapper li {
+    list-style: none;
+}
+ul.nav-wrapper li a {
+    text-transform: capitalize;
+    color: #000;
+    text-decoration: none;
+}
+.input_wrapper input {
+    padding: 12px;
+    border: 1px solid #8080803d;
+    border-radius: 4px;
+    margin: 12px 0px;
+}
+
+.button_wrapper button {
+    margin-top: 30px;
+    width: 100%;
+    padding: 12px 52px;
+    border: unset;
+    background: skyblue;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: montserrat;
+    font-weight: 500;
+}
+input:focus-visible {
+    outline: unset;
+}
+.verify_user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.credintials p {
+    margin: 0px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.credintials {
+    display: flex;
+    margin-top: 22px;
+    width: 100%;
+}
+button.verify {
+    padding: 12px 62px;
+    border: unset;
+    background: skyblue;
+    border-radius: 4px;
+}
+.button_wrapper {
+    width: 100%;
+}
+
+.input_wrapper span {
+    color: #ff000080;
+    margin: 4px 0px 8px 0px;
+}
